@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Expenso</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #FAFAF8;
+      --surface: #FFFFFF;
+      --text: #1C1C1A;
+      --muted: #6B6A65;
+      --border: rgba(0,0,0,0.1);
+      --accent: #0F6E56;
+      --accent-light: #E1F5EE;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #18181A;
+        --surface: #222224;
+        --text: #F0EFEA;
+        --muted: #9A9993;
+        --border: rgba(255,255,255,0.1);
+        --accent: #5DCAA5;
+        --accent-light: #04342C;
+      }
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Georgia', serif;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 0 2rem;
+      text-align: center;
+    }
+
+    .logo-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      background: var(--accent);
+      border-radius: 14px;
+      margin-bottom: 1rem;
+    }
+
+    .logo-mark svg { width: 26px; height: 26px; fill: white; }
+
+    header h1 {
+      font-family: 'Georgia', serif;
+      font-size: 2rem;
+      font-weight: normal;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    .meta {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section { margin-bottom: 2.5rem; }
+
+    h2 {
+      font-family: 'Georgia', serif;
+      font-size: 1.1rem;
+      font-weight: normal;
+      letter-spacing: 0.01em;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+
+    p { color: var(--text); margin-bottom: 0.75rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 1.25rem;
+      color: var(--text);
+    }
+
+    ul li { margin-bottom: 0.4rem; }
+
+    .highlight {
+      background: var(--accent-light);
+      border-left: 3px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 8px 8px 0;
+      margin: 1.5rem 0;
+    }
+
+    .highlight p { color: var(--text); }
+
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+    </svg>
+  </div>
+  <h1>Expenso</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+  <div class="meta">
+    <span>Effective: 13 May 2026</span>
+    <span>Last updated: 13 May 2026</span>
+  </div>
+
+  <section>
+    <h2>Introduction</h2>
+    <p>Expenso ("we", "our", or "the app") is a personal expense tracking application. This Privacy Policy explains what information we access, how we use it, and your rights regarding your data.</p>
+    <p>By using Expenso, you agree to the practices described in this policy.</p>
+  </section>
+
+  <section>
+    <h2>Information we access</h2>
+    <p>Expenso accesses the following categories of information:</p>
+    <ul>
+      <li><strong>Expense data you enter</strong> — amounts, categories, dates, and notes you add manually.</li>
+      <li><strong>Contacts (with your permission)</strong> — when you use the Lend/Borrow feature, Expenso requests access to your device contacts so you can associate a transaction with a person. Only the contact's name and phone number are read for this purpose.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How we use your contacts</h2>
+    <div class="highlight">
+      <p>Contact access is used <strong>solely</strong> to let you tag a person in a lending or borrowing record. We do not share your contacts with third parties or use them for any purpose other than displaying them within the app for your selection.</p>
+    </div>
+    <p>Currently, contact associations are stored locally on your device only. When optional cloud sync is introduced in a future update, any associated contact names will be encrypted in transit and at rest. This policy will be updated before that feature is released.</p>
+  </section>
+
+  <section>
+    <h2>Data storage</h2>
+    <p>All data entered in Expenso — including expense records, lending entries, and any contact associations — is currently stored locally on your device.</p>
+    <p>We plan to introduce optional cloud sync in a future update. This policy will be updated before that feature goes live.</p>
+  </section>
+
+  <section>
+    <h2>Third-party sharing</h2>
+    <p>We do not sell, trade, or share your data with any third parties. We do not use advertising networks or analytics services that collect personally identifiable information.</p>
+  </section>
+
+  <section>
+    <h2>Data security</h2>
+    <p>Currently, all data is stored locally on your device and protected by your device's own security mechanisms (screen lock, encryption). We recommend keeping your device secured with a PIN, password, or biometric lock.</p>
+    <p>We plan to introduce optional cloud sync in a future update. When available, data transmission will be encrypted in transit and at rest. This policy will be updated before that feature is released.</p>
+  </section>
+
+  <section>
+    <h2>Permissions requested</h2>
+    <ul>
+      <li><strong>READ_CONTACTS</strong> — To allow you to select a contact from your address book when adding a lend/borrow transaction. This is optional; you can use Expenso without granting this permission.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Children's privacy</h2>
+    <p>Expenso is not directed at children under the age of 13. We do not knowingly collect any data from children.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If we update this policy, we will revise the "Last updated" date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>If you have questions about this policy, please contact us at: <a href="mailto:bharathayinala@gmail.com">bharathayinala@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Expenso. All rights reserved.
+</footer>
+
+</body>
+</html>

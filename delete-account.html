@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Manino account</title>
+<meta name="description" content="How to request deletion of your Manino account and associated data.">
+<style>
+  :root{
+    --bg:#080B18;
+    --surface:#0F1428;
+    --line:#1E2540;
+    --ink:#EEF1F8;
+    --muted:#98A1BD;
+    --teal:#2DD4BF;
+    --violet:#6C63FF;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:16px;
+    line-height:1.65;
+  }
+  main{max-width:720px;margin:0 auto;padding:56px 24px 96px}
+  header{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:40px}
+  .eyebrow{
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--teal);font-weight:600;margin:0 0 10px
+  }
+  h1{font-size:clamp(28px,5vw,38px);line-height:1.15;margin:0 0 12px;letter-spacing:-.02em}
+  .lede{color:var(--muted);margin:0}
+  h2{font-size:19px;margin:44px 0 14px;letter-spacing:-.01em}
+  p{margin:0 0 14px}
+  ol,ul{margin:0 0 14px;padding-left:22px}
+  li{margin-bottom:8px}
+  a{color:var(--teal)}
+  strong{color:#fff}
+  .card{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-left:3px solid var(--violet);
+    border-radius:12px;
+    padding:20px 22px;
+    margin:0 0 14px;
+  }
+  table{width:100%;border-collapse:collapse;margin:0 0 14px;font-size:15px}
+  th,td{text-align:left;padding:12px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+  td:first-child{padding-right:20px;width:52%}
+  .tag{font-weight:600}
+  .tag.del{color:var(--teal)}
+  .tag.keep{color:#F2B84B}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  @media (max-width:520px){
+    td:first-child{width:auto}
+    table,tbody,tr,td,th{display:block}
+    th{display:none}
+    tr{padding:12px 0;border-bottom:1px solid var(--line)}
+    td{border:0;padding:2px 0}
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Manino &middot; Fynlo Labs</p>
+    <h1>Delete your Manino account</h1>
+    <p class="lede">This page explains how to request deletion of your <strong>Manino</strong> account (package <code>com.fynlo.app</code>, published by Fynlo Labs) and what happens to your data.</p>
+  </header>
+
+  <h2>Delete from inside the app</h2>
+  <ol>
+    <li>Open Manino and go to <strong>Profile &rarr; Settings</strong>.</li>
+    <li>Tap <strong>Delete account</strong>.</li>
+    <li>Confirm when prompted. Deletion is permanent and cannot be undone.</li>
+  </ol>
+  <p>Your account and the data listed below are removed immediately on confirmation.</p>
+
+  <h2>Request deletion by email</h2>
+  <div class="card">
+    <p>If you have uninstalled the app or cannot sign in, email <a href="mailto:maninosupport@gmail.com">maninosupport@gmail.com</a> from the address linked to your Manino account with the subject <strong>Delete my account</strong>.</p>
+    <p style="margin:0">We verify the request against the account email and complete deletion within <strong>30 days</strong>. You will receive confirmation once it is done.</p>
+  </div>
+
+  <h2>What is deleted and what is kept</h2>
+  <table>
+    <thead>
+      <tr><th>Data</th><th>Outcome</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Account identifier and email address</td><td class="tag del">Deleted</td></tr>
+      <tr><td>Name, income and salary-cycle settings</td><td class="tag del">Deleted</td></tr>
+      <tr><td>Transactions, budgets, goals, lend and borrow records, net worth entries synced to our servers</td><td class="tag del">Deleted</td></tr>
+      <tr><td>Categories, tags and app preferences</td><td class="tag del">Deleted</td></tr>
+      <tr><td>Subscription and purchase records</td><td class="tag keep">Kept up to 7 years, where tax and accounting law requires it</td></tr>
+      <tr><td>Anonymous, aggregated analytics and crash diagnostics that cannot be linked back to you</td><td class="tag keep">Kept indefinitely</td></tr>
+      <tr><td>Encrypted backups containing deleted records</td><td class="tag keep">Overwritten within 30 days of deletion</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Data stored on your device</h2>
+  <p>Manino is local-first: most of your financial data lives on your phone. Deleting your account removes the server-side copy. To remove the local copy, uninstall the app or clear its storage from Android <strong>Settings &rarr; Apps &rarr; Manino &rarr; Storage &rarr; Clear data</strong>.</p>
+
+  <h2>Delete some data without deleting your account</h2>
+  <p>You can delete individual transactions, budgets, goals and lend or borrow records at any time from within the app. Deleted records are removed from our servers on the next sync.</p>
+
+  <footer>
+    <p style="margin:0">Fynlo Labs &middot; <a href="mailto:maninosupport@gmail.com">maninosupport@gmail.com</a> &middot; <a href="https://bharath914.github.io/manino-privacy-policy/">Privacy policy</a></p>
+    <p style="margin:6px 0 0">Last updated 9 August 2026</p>
+  </footer>
+</main>
+</body>
+</html>
